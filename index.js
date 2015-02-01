@@ -1,7 +1,7 @@
 const SHA3 = require('sha3'),
   assert = require('assert'),
   rlp = require('rlp'),
-  bignum = require('bignum');
+  bignum = require('bignum-browserify');
 
 //the max interger that this VM can handle
 exports.MAX_INTEGER = bignum('ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 16);

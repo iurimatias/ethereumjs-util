@@ -1,6 +1,6 @@
 var assert = require('assert');
 var ethUtils = require('../index.js');
-var bignum = require('bignum');
+var bignum = require('bignum-browserify');
 
 describe('zeros function', function(){
   it('should produce lots of 0s', function(){
