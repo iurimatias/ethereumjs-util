@@ -1,4 +1,4 @@
-const SHA3 = require('sha3'),
+const SHA3 = require('./sha3'),
   assert = require('assert'),
   rlp = require('rlp'),
   bignum = require('bignum-browserify');
